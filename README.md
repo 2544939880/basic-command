@@ -7,11 +7,11 @@
 
 ## Linux
 
-[`linux_commands.md`](./linux_commands.md) : 文件中包含常用的 Linux 命令行基础指令，包括：文件和文件夹的创建、删除、复制、移动、编辑等操作。
+[`linux_commands.md`](./linux_commands.md) : 文件中包含在 Linux 终端中常用的基础指令，包括：文件和文件夹的创建、删除、复制、移动、编辑等操作。
 
 ## Github
 
-[`github_commands.md`](./github_commands.md) : 文件中包括 Github Branch 相关操作指令，以及 Commit 内容撤回，版本回滚操作。
+[`github_commands.md`](./github_commands.md) : 文件中包括在 Linux 终端中 Github Branch 相关操作指令，以及 Commit 内容撤回，版本回滚操作。
 
 
 
