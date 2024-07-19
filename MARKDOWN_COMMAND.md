@@ -60,7 +60,7 @@
 1.  Open the file containing the Linux mascot.
 2.  Marvel at its beauty.
 
-    ![Wechat app icon](wechat.png)
+    ![Wechat app icon](./figures/wechat.png)
 
 3.  Close the file. 
 
@@ -175,7 +175,7 @@ This is the *[Markdown Guide](https://www.markdownguide.org)*.
 
 要将链接表示为代码，请在方括号中添加反引号。 
 
-See the section on [`code`](test_code.py).
+See the section on [`code`](./figures/test_code.py).
 
 链接到标题ID
 
@@ -204,7 +204,7 @@ See the section on [Basic Command](#markdown-basic-command)
 
 给图片增加链接，请将图像的Markdown 括在方括号中，然后将链接添加在圆括号中。
 
-[![wechat icon](wechat.png "WeChat")](https://markdown.com.cn)
+[![wechat icon](./figures/wechat.png "WeChat")](https://markdown.com.cn)
 
 
 ## Markdown 删除线
