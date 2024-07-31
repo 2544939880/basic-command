@@ -44,8 +44,25 @@
 
         $ git push origin HEAD --force
 
+<br>
+<br>
 
+# 删除远程仓库文件\文件夹操作
 
+1. 当需要在移除版本控制中的指定文件并需要在工作区中保留该文件时，需要 带 `--cached` 参数
 
+        $ git rm --cached deleteFileName
+
+        $ it rm -r --cached deleteDirctoryName
+
+2. 将删除操作提交到git仓库
+
+        $ git commit -m "delete file remind"
+
+3. 将本次修改更新到github远程仓库
+
+        $ git push origin main
+
+> **注意：** 此删除操作只会删除github远程仓库和git仓库(暂存区和版本库)的文件(夹)，而git仓库的工作区(即本地目录)下的文件(夹)不受影响 
 
 
