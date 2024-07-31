@@ -199,6 +199,8 @@ See the section on [Basic Command](#markdown-basic-command)
 ## Markdown 图片语法
 
 要插入图片Markdown语法代码：`![图片alt](图片链接 "图片title")`，图片title为可选。
+  
+> Markdown支持的图片格式包括 PNG、JPG、JPEG、GIF 等。
 
 **链接图片**
 
