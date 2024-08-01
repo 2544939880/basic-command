@@ -44,7 +44,7 @@ git rebase main
 
 `$ git push -f origin branchName`
 
-> `-f` 表示 force，对于上述的 `git rebase` 操作后需要强制 push
+> `-f` 表示 force，对于上述的 `git rebase` 操作后需要强制 push my-feature
 
 
 <br>
