@@ -27,6 +27,26 @@
 
 `$ git merge mergedBranchName`
 
+## 当 main 分支改变时，其余分支同步 main 中变动
+
+```Git
+git checkout main
+git pull origin main
+
+git checkout my-feature
+git rebase main
+```
+
+> `rebase` 操作优先保存 main 分支代码，然后将 my-feature commit 向其合并，当出现冲突时需人工选择合并
+
+
+## 强制 push 
+
+`$ git push -f origin branchName`
+
+> `-f` 表示 force，对于上述的 `git rebase` 操作后需要强制 push
+
+
 <br>
 <br>
 
@@ -66,3 +86,7 @@
 > **注意：** 此删除操作只会删除github远程仓库和git仓库(暂存区和版本库)的文件(夹)，而git仓库的工作区(即本地目录)下的文件(夹)不受影响 
 
 
+<br>
+<br>
+
+# 
